@@ -44,4 +44,49 @@ class AppSizes {
       Responsive.responsiveWidth * 14.78;
   static double detailesScreenUserInterFaceRightPadding =
       Responsive.responsiveWidth * 16.1;
+
+  static double detailesScreenVideoCoveAngle = 0.1;
+  static double detailesScreenClipOvalWidth =
+      Responsive.responsiveWidth * 54.13;
+  static double detailesScreenClipOvalHeight =
+      Responsive.responsiveHeight * 54.13;
+  static double detailesScreenVideoTitleFontSize =
+      Responsive.responsiveWidth * 21.65;
+  static double detailesScreenVideoTitleLeftPaddong =
+      Responsive.responsiveWidth * 15.89;
+  static double detailesScreenVideoTitleTopPadding =
+      Responsive.responsiveHeight * 19.72;
+
+  static double detailesScreenTagwRadius = Responsive.responsiveHeight * 3.61;
+
+  static double detailesScreenTageTopPadding =
+      Responsive.responsiveHeight * 1.82;
+  static double detailesScreenTageLeftPadding =
+      Responsive.responsiveHeight * 3.02;
+  static double detailesScreenTageRightPadding =
+      Responsive.responsiveWidth * 3.05;
+  static double detailesScreenTageBottomPadding =
+      Responsive.responsiveWidth * 1.3;
+
+  static double detailesScreenTagesTextFontSize =
+      Responsive.responsiveWidth * 9.02;
+
+  static double detailsScreenFirstTageMarginLeft =
+      Responsive.responsiveWidth * 16.26;
+  static double detailesScreenFirstTageMarginTop =
+      Responsive.responsiveHeight * 14.5;
+  static double detailesScreenTageTwoLeftMargin =
+      Responsive.responsiveWidth * 7.14;
+  static double detailesScreenTageTwoTopMargin =
+      Responsive.responsiveHeight * 13.92;
+
+  static double detailesScreenTageThreeLeftMargin =
+      Responsive.responsiveWidth * 7.14;
+
+  static double detailesScreenTageThreeTopMargin =
+      Responsive.responsiveHeight * 13.76;
+  static double detailesScreenVideoDescriptionWidth =
+      Responsive.responsiveWidth * 309.67;
+  static double detailesScreenVideoDescriptionHeight =
+      Responsive.responsiveHeight * 56.67;
 }
