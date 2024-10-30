@@ -85,8 +85,35 @@ class AppSizes {
 
   static double detailesScreenTageThreeTopMargin =
       Responsive.responsiveHeight * 13.76;
+
   static double detailesScreenVideoDescriptionWidth =
       Responsive.responsiveWidth * 309.67;
   static double detailesScreenVideoDescriptionHeight =
       Responsive.responsiveHeight * 56.67;
+  static double detailesScreenVideoDescriptionTopMargin =
+      Responsive.responsiveHeight * 5.68;
+  static double detailesScreenVideoDescriptionLeftMargin =
+      Responsive.responsiveWidth * 16.38;
+  static double detailesScreenVideoDescriptionRightMargin =
+      Responsive.responsiveWidth * 15.23;
+
+  static double detailesScreenDescriptionVideoFontSize =
+      Responsive.responsiveWidth * 12.63;
+
+  static double detailesScreenStopWacthIconWidth =
+      Responsive.responsiveWidth * 14.45;
+  static double detailesScreenStopWatchHeight =
+      Responsive.responsiveHeight * 14.39;
+  static double detailesScreenStopWatchLeftPadding =
+      Responsive.responsiveWidth * 272.22;
+  static double detailesScreenStopWatchTopPadding =
+      Responsive.responsiveHeight * 13.07;
+
+  static double detailesScreenTimerFontSize = Responsive.responsiveWidth * 9.02;
+  static double detailesScreenTimerTopPadding = 12.88;
+  static double detailesScreenTimerLeftPadding =
+      Responsive.responsiveWidth * 7.15;
+
+  static double detailesScreenAvatarWidth = Responsive.responsiveWidth * 36.09;
+  static double detailesScreenAvatarHeight = Responsive.responsiveWidth * 36.09;
 }

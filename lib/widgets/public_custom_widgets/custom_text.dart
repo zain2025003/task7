@@ -12,7 +12,8 @@ class CustomText extends StatelessWidget {
       this.leftPadding,
       this.rightPadding,
       this.bottomPadding,
-      this.fontFamily});
+      this.fontFamily,
+      this.heightText});
   final String text;
   final double fontSize;
   final Color textColor;
@@ -23,6 +24,7 @@ class CustomText extends StatelessWidget {
   final double? rightPadding;
   final double? bottomPadding;
   final String? fontFamily;
+  final double? heightText;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -38,7 +40,8 @@ class CustomText extends StatelessWidget {
             fontWeight: fontWeight,
             letterSpacing: letterSpacing,
             fontFamily: fontFamily,
-            fontSize: fontSize),
+            fontSize: fontSize,
+            height: heightText),
       ),
     );
   }

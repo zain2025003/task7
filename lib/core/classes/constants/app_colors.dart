@@ -22,5 +22,7 @@ class AppColors {
       const Color.fromARGB(255, 255, 255, 255);
   static Color detailesScreenVideoTitleColor = const Color(0xff303030);
 
+  static Color detailesScreenFeedBackColor = const Color(0xffF6F7FA);
+
   //home screen colors
 }

@@ -5,8 +5,8 @@ import 'package:task7_v2/core/classes/constants/app_images.dart';
 import 'package:task7_v2/core/classes/constants/app_sizes.dart';
 import 'package:task7_v2/core/classes/constants/services/media_query_services.dart';
 
-class DetailesScreenCustomVideoUserFace extends StatelessWidget {
-  const DetailesScreenCustomVideoUserFace({super.key});
+class DetailesScreenCustomVideoUserInterFace extends StatelessWidget {
+  const DetailesScreenCustomVideoUserInterFace({super.key});
 
   @override
   Widget build(BuildContext context) {

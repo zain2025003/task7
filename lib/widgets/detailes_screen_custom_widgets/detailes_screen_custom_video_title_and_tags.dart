@@ -4,8 +4,8 @@ import 'package:task7_v2/core/classes/constants/app_sizes.dart';
 import 'package:task7_v2/core/classes/constants/app_text_styles.dart';
 import 'package:task7_v2/widgets/public_custom_widgets/custom_text.dart';
 
-class DetailesScreenCustomVideoDescription extends StatelessWidget {
-  const DetailesScreenCustomVideoDescription({super.key});
+class DetailesScreenCustomVideoTitleAndTages extends StatelessWidget {
+  const DetailesScreenCustomVideoTitleAndTages({super.key});
 
   @override
   Widget build(BuildContext context) {
