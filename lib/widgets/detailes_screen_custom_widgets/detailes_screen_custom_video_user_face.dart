@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:task7_v2/core/classes/constants/app_colors.dart';
 import 'dart:ui';
 import 'package:task7_v2/core/classes/constants/app_images.dart';
 import 'package:task7_v2/core/classes/constants/app_sizes.dart';
 import 'package:task7_v2/core/classes/constants/services/media_query_services.dart';
 
-class DetailesScreenCustomVideoUserFace extends StatelessWidget {
-  const DetailesScreenCustomVideoUserFace({super.key});
+class DetailesScreenCustomVideoUserInterFace extends StatelessWidget {
+  const DetailesScreenCustomVideoUserInterFace({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Stack(
       alignment: Alignment.center,
       children: [
-        // صورة الخلفية
         Container(
           margin: EdgeInsets.only(
             top: AppSizes.detailesNavigationButtonTopPadding,
@@ -28,30 +28,26 @@ class DetailesScreenCustomVideoUserFace extends StatelessWidget {
             image: AssetImage(AppImages.detailesScreenVideoInterFaceBackground),
           ),
         ),
-
-        // تأثير BlendMode دائري مع Rotation حول الأيقونة
         Transform.rotate(
-          angle: 0.1, // زاوية التدوير المطلوبة
+          angle: AppSizes.detailesScreenVideoCoveAngle,
           child: ClipOval(
             child: BackdropFilter(
-              filter:
-                  ImageFilter.blur(sigmaX: 1, sigmaY: 1), // تأثير تمويه خفيف
+              filter: ImageFilter.blur(sigmaX: 0, sigmaY: 0),
               child: Container(
-                width: Responsive.responsiveWidth * 54.13,
-                height: Responsive.responsiveWidth * 54.13,
-                color: Colors.white60.withOpacity(0.01), // شفافية حول الصورة
+                width: AppSizes.detailesScreenClipOvalWidth,
+                height: AppSizes.detailesScreenClipOvalHeight,
+                color: AppColors.detailesScreenClipColor.withOpacity(0.1),
                 child: Image.asset(
-                  'assets/images/playVideoCover.png',
-                  color: Colors.white.withOpacity(0.5),
-                  colorBlendMode: BlendMode.overlay,
+                  AppImages.detailesScreenPlayVideoCover,
+                  color: const Color.fromARGB(255, 255, 255, 255)
+                      .withOpacity(0.24),
+                  colorBlendMode: BlendMode.difference,
                   fit: BoxFit.fill,
                 ),
               ),
             ),
           ),
         ),
-
-        // الأيقونة الأصلية للتشغيل بدون تأثير
       ],
     );
   }
