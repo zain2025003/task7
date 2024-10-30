@@ -19,4 +19,4 @@ class CourseApp extends StatelessWidget {
       home: const DetailesScreen(),
     );
   }
-}//test323333332
+}//test3233333324
