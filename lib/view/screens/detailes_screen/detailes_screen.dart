@@ -18,7 +18,8 @@ class DetailesScreen extends StatelessWidget {
           children: [
             DetailesScreenCustomHeader(),
             DetailesScreenCustomVideoUserFace(),
-            DetailesScreenCustomVideoTitleAndTages()
+            DetailesScreenCustomVideoDescription(),
+
           ],
         ),
       ),
